@@ -1,0 +1,11 @@
+Let x = 0;
+Let y = 0;
+Let z = 0;
+z = x + y;
+print [z];
+z = x - y;
+print [z];
+z = x * y;
+print [z];
+z = x / y;
+print [z];
