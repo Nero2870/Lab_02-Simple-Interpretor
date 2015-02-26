@@ -1,0 +1,66 @@
+Description Document
+
+Name : Muhammad Abdullah Khan
+Lab = 02
+Task = Simple Interpretor
+Language = C++
+
+Classes = 01
+	name = Interpretor
+
+Test cases = 05
+	Names :-
+		1. test_add
+		2. test_sub
+		3. test_div
+		4. test_mul
+		5. crash_test
+
+Data Structures Used:-
+	Arrays
+	MAP
+
+Bonus Information:-
+	Templates Used In functions
+		1. add
+		2. sub
+		3. div
+		4. mul
+	Systex Error Handled
+		1. unordered data
+		2. Spaces more than 1 are still considered 1
+		3. Different expresstions without spaces display a syntex error
+
+Other Functions
+	1. parse_file(string file_name)
+Description:
+	This function takes a name from the user from main. This file is opened.
+	Successful opening of file is checked.
+	In case of successful opening
+	File is parsed.
+
+	In case of "Let" Expression it is passed to a pipe.
+		"Let" Pipe then Performs usuful checks that are assosicated with Let statements
+		Stores the values in a MAP in case everything is well.
+		Else throws exceptions AND TERMINATES EXECUTION.
+
+	In case of "Print" Expression it is passed to a print pipe.
+		"Print" Pipe then Performs usuful checks that are assosicated with "Print" statements
+		Displays the values using the MAP in case everything is well.
+		Else throws exceptions AND TERMINATES EXECUTION.
+
+	In case of "+" OR "-'' OR "*"  OR "/" Expression it is passed to a Calculator pipe.
+		"Calculation" Pipe then Performs usuful checks that are assosicated with "Calculation" statements
+		1. Takes values assosiated to variables from MAP
+		2. Performs Required Calculations
+		3. Updates Values in case needed
+			In case everything is well.
+		Else throws exceptions AND TERMINATES EXECUTION.		
+
+Comment: Lab task was lengthy and messy. In case some exceptions hinder execution. Please donot cut extra marks.	Pipe Filter scheme was easy to use but difficult to control.
+	Overall It was a good exercise. :)
+
+Many thanks
+Muhammad Abdullah Khan
+01268-BSCS2-A
+SEECS NUST
